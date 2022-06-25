@@ -10,9 +10,7 @@ Resources:
       AutoPublishAlias: live
       FunctionUrlConfig:
         AuthType: NONE
-        Cors:
-            AllowOrigins:
-                - "https://example.com"
+
 Outputs:
   Function:
     Value: !GetAtt Function.Arn
